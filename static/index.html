@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Smartfarmv2</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <app-root>Loading...</app-root>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+<script type='text/javascript' src='./assets/js/jquery-3.2.0.min.js'></script>
+<script type='text/javascript' src='./assets/js/bootstrap.min.js'></script>
+<script type="text/javascript" src="./assets/js/chart.js"></script>
+<script type="text/javascript" src="./assets/js/loader.js"></script>
+<script>
+    // !important: You want to give this variable(var googleLoaded = false;). This is used to run multiple chart in your jade.
+    var googleLoaded = false;
+    // !important: Define which chart packages to preload.Because this package uses ChartWrappers you can use any chart type that Google supports, but if it // isn't loaded it will load it on demand. 
+    var googleChartsPackagesToLoad = ['geochart'];
+</script>
+
+</html>
